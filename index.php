@@ -1,19 +1,71 @@
-<?php 
+<?php
 include_once("App/views/partials/head.php");
 include_once("App/views/partials/nav.php");
+include_once("App/views/home.php");
 ?>
-<div class="relative">
-  <img src="public/assets/bg1.jpg" alt="" class="w-full h-auto rounded-b-[18%]">
+<!-- Big centered About Us -->
+<h1 class="text-5xl font-bold text-center my-10 text-[#033E94]">ABOUT US</h1>
+
+<div class="grid grid-cols-2 gap-8 h-screen px-10">
+  <!-- Column 1: two rows -->
+  <div class="grid grid-rows-2 gap-8">
+    <!-- First block -->
+    <div class="bg-white shadow-lg rounded-lg p-6 flex items-center justify-center text-center">
+
+      <p class="text-lg text-start leading-relaxed text-[#033E94]">
+        FISMPC began in 2011 under the guiding spirit of the Filipino Investors Society (FIS), 
+        the country's pioneer organization for inventors and creative technologists. 
+        We were conceived as the socio-economic arm of FIS to empower Filipino innovators 
+        by supporting invention-based enterprises and sustainable livelihoods. 
+        Over the years, our cooperative has nurtured countless inventors, 
+        helping them take ideas from the lab or workshop to the marketplace.
+      </p>
+    </div>
+
+    <!-- Second block -->
+    <!-- <div class="shadow-lg rounded-lg p-6 text-center bg-[#785402]">
+      <h2 class="text-3xl bg-[#DE9F1B] font-bold text-white mb-4">OUR VISION</h2>
+      <p class="text-xl text-start leading-relaxed text-white">
+        To build a globally recognized innovation cooperative that transforms Filipino inventors 
+        into sustainable industries, uplifts communities, and strengthens the nation's self-reliance 
+        through science, creativity, and cooperative unity.
+      </p>
+    </div>
+  </div> -->
+  <!-- Second block -->
+<div class="shadow-lg rounded-lg bg-[#785402]">
   
-<div class="absolute inset-0 flex flex-col items-center justify-center px-4 text-center">
-  <h1 class="text-white text-3xl md:text-5xl font-bold drop-shadow-lg mb-4">
-    FILIPINO INVESTORS SOCIETY MULTI-PURPOSE COOPERATIVE 
-    <span class="text-[#DE9F1B]">(FISMPC)</span>
-  </h1>
-  <!-- <p class="text-white text-sm md:text-base drop-shadow-md"> -->
-  <p class="text-white text-sm md:text-base max-w-6xl drop-shadow-md">
-    Welcome to the Filipino Investors Society Multi-Purpose Cooperative (FISMPC)! We are a dynamic community of visionary inventors, innovators, scientists, and entrepreneurs working together to transform Filipino ingenuity into engines of inclusive national development. Since our founding in 2011, FISMPC has become a recognized platform for innovation commercialization, bridging the gap between creative ideas and real-world solutions. Our members have developed technologies in fields like agriculture, renewable energy, education, and digital transformation. Through a decade of service and advocacy, FISMPC stands as a symbol of Filipino resilience and creativity, proving that innovation, when nurtured through cooperation, can make the Philippines great again.
-  </p>
+  <!-- Row for image + heading -->
+  <div class="flex items-center w-full 
+              bg-gradient-to-r from-[#DE9F1B] via-[#DE9F1B]/80 to-transparent 
+              mb-4 mt-6">
+    
+    <!-- Image on the left -->
+     <div class="flex items-center justify-center w-18 h-18 rounded-full bg-white ml-4 mr-4">
+    <img src="./public/assets/vision.png" alt="Vision Icon" 
+         class="w-15 h-15 object-cover rounded-full ml-4 mr-4" />
+    </div>
+    <!-- Heading -->
+    <h2 class="flex-1 text-3xl font-bold text-white py-4 px-4">
+      OUR VISION
+    </h2>
+  </div>
+
+  <!-- Separate row for text content -->
+  <div class="w-full p-6">
+    <p class="text-xl text-start leading-relaxed text-white">
+      To build a globally recognized innovation cooperative that transforms Filipino inventors 
+      into sustainable industries, uplifts communities, and strengthens the nation's self-reliance 
+      through science, creativity, and cooperative unity.
+    </p>
+  </div>
 </div>
 
+
+  <!-- Column 2: full height -->
+  <div class="bg-gray-100 shadow-xl rounded-lg flex items-center justify-center">
+    <h1 class="text-4xl font-bold text-gray-800">Main Content Here</h1>
+  </div>
 </div>
+
+

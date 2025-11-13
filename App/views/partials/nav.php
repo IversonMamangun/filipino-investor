@@ -1,7 +1,7 @@
-<nav class="bg-white bg-opacity-90 fixed top-6 left-1/2 transform -translate-x-1/2 w-[95%] z-50 rounded-xl shadow-lg border border-gray-200 mt-5">
+<nav class="bg-white bg-opacity-90 fixed top-15 left-1/2 transform -translate-x-1/2 w-[95%] z-50 rounded-xl shadow-lg border border-gray-200">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-2 px-4">
     <a href="" class="flex items-center space-x-3 rtl:space-x-reverse">
-        <img src="public/assets/footerlogo.png" class="h-9" alt="Logo of Filipino Investor">
+        <img src="public/assets/navlogo.png" class="h-9" alt="Logo of Filipino Investor">
         <span class="self-center text-xl text-heading font-semibold whitespace-nowrap"></span>
     </a>
     <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
@@ -16,7 +16,7 @@
     </div>
     <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
       <ul class="flex flex-col p-2 md:p-0 mt-2 font-normal border border-default rounded-base bg-neutral-secondary-soft md:space-x-4 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-neutral-primary">
-          <a href="#" class="block py-1.5 px-2 text-s text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0">Home</a>
+          <a href="./" class="block py-1.5 px-2 text-s text-[#033E94] rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0">Home</a>
         </li>
         <li>
           <a href="#" class="block py-1.5 px-2 text-s text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0">About Us</a>
