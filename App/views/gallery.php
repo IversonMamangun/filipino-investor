@@ -149,22 +149,16 @@
 
 <div class="grid grid-cols-2 gap-4 h-screen-auto p-[6%] shadow-lg">
   <!-- First column: Whole size image -->
-<div class="relative w-full h-full">
-  <!-- Image -->
-  <img src="./public/assets/pp1.jpg" alt="Large Image" 
-       class="w-full h-full object-cover p-4 shadow-xl">
+  <div class="relative w-full h-full">
+    <img src="./public/assets/pp1.jpg" alt="Large Image"
+      class="w-full h-full object-cover p-4 shadow-xl">
 
-  <!-- Banner -->
-  <div class="absolute top-10 bg-yellow-500  bg-gradient-to-tr 
-    from-yellow-500 
-    via-yellow-300 
-    to-yellow-600
-   text-white px-15 py-2 rounded-br-4xl text-2xl font-bold">
-    HIGHLIGHTS
+    <div class="absolute top-10 bg-yellow-500 bg-gradient-to-tr 
+      from-yellow-500 via-yellow-300 to-yellow-600
+      text-white px-15 py-2 rounded-br-4xl text-2xl font-bold">
+      HIGHLIGHTS
+    </div>
   </div>
-
-</div>
-
 
   <!-- Second column: 4 smaller images -->
   <div class="grid grid-cols-2 grid-rows-2 gap-4">
@@ -172,5 +166,14 @@
     <img src="./public/assets/pp1.jpg" alt="Image 2" class="w-full h-full object-cover p-4 shadow-xl">
     <img src="./public/assets/pp1.jpg" alt="Image 3" class="w-full h-full object-cover p-4 shadow-xl">
     <img src="./public/assets/pp1.jpg" alt="Image 4" class="w-full h-full object-cover p-4 shadow-xl">
+  </div>
+
+  <!-- Full-width row for button -->
+  <div class="col-span-2 flex justify-center mt-6">
+    <button type="submit"
+      class="text-white bg-[#033E94] hover:bg-blue-900 focus:ring-4 focus:ring-blue-300 
+             shadow-md font-semibold rounded-xl text-xl px-18 py-4">
+      View all
+    </button>
   </div>
 </div>
