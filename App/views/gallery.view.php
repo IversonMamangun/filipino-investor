@@ -79,32 +79,37 @@
 <h1 class="text-5xl font-bold mx-[8%] my-10 text-[#033E94]">Video</h1>
 
 <!-- ✅ Centered Carousel -->
-<div class="relative max-w-6xl mx-auto px-4 overflow-hidden">
+<div class="relative max-w-7xl mx-auto overflow-hidden">
   <!-- Carousel wrapper -->
-  <div class="flex overflow-x-auto snap-x snap-mandatory scroll-smooth">
+  <div class="flex overflow-x-auto snap-x px-13 snap-mandatory scroll-smooth">
 
     <!-- Slide 1 -->
-    <div class="block max-w-sm p-6 rounded-xl shadow-lg mx-2 bg-white snap-center">
+    <div class="block w-full md:w-4/3 p-6 rounded-xl shadow-lg mx-2 bg-white snap-center">
       <a href="#" class="relative block">
         <img class="rounded-xl shadow-lg w-full" src="./public/assets/v1.jpg" alt="Green Tech Initiative" />
         <img class="absolute inset-0 m-auto w-20 h-20 rounded-full shadow-lg" src="./public/assets/video.png" alt="Green Tech Initiative Icon" />
       </a>
-      <h5 class="mt-6 mb-2 text-2xl font-semibold tracking-tight text-heading">
-        Green Tech Initiative: Jan 2025
+      <h5 class="mt-6 mb-2 text-xl tracking-tight text-heading flex justify-between items-center">
+        <strong>Green Tech Initiative:</strong>
+        <span class="">Jan 2025</span>
       </h5>
+
       <p class="mb-6 text-body">
         Under the Green Innovation and Renewable System program, FISMPC installed solar microgrid system and water purifiers in 10 rural barangays.
       </p>
     </div>
 
+
     <!-- Slide 2 -->
-    <div class="block max-w-sm p-6 rounded-xl shadow-lg mx-2 bg-white snap-center">
+    <div class="block w-full md:w-4/3 p-6 rounded-xl shadow-lg mx-2 bg-white snap-center">
+
       <a href="#" class="relative block">
         <img class="rounded-xl shadow-lg w-full" src="./public/assets/v1.jpg" alt="Green Tech Initiative" />
         <img class="absolute inset-0 m-auto w-20 h-20 rounded-full shadow-lg" src="./public/assets/video.png" alt="Green Tech Initiative Icon" />
       </a>
-      <h5 class="mt-6 mb-2 text-2xl font-semibold tracking-tight text-heading">
-        Green Tech Initiative: Jan 2025
+            <h5 class="mt-6 mb-2 text-xl tracking-tight text-heading flex justify-between items-center">
+        <strong>Green Tech Initiative:</strong>
+        <span class="">Jan 2025</span>
       </h5>
       <p class="mb-6 text-body">
         Under the Green Innovation and Renewable System program, FISMPC installed solar microgrid system and water purifiers in 10 rural barangays.
@@ -112,13 +117,15 @@
     </div>
 
     <!-- Slide 3 -->
-    <div class="block max-w-sm p-6 rounded-xl shadow-lg mx-2 bg-white snap-center">
+    <div class="block w-full md:w-4/3 p-6 rounded-xl shadow-lg mx-2 bg-white snap-center">
+
       <a href="#" class="relative block">
         <img class="rounded-xl shadow-lg w-full" src="./public/assets/v1.jpg" alt="Green Tech Initiative" />
         <img class="absolute inset-0 m-auto w-20 h-20 rounded-full shadow-lg" src="./public/assets/video.png" alt="Green Tech Initiative Icon" />
       </a>
-      <h5 class="mt-6 mb-2 text-2xl font-semibold tracking-tight text-heading">
-        Green Tech Initiative: Jan 2025
+           <h5 class="mt-6 mb-2 text-xl tracking-tight text-heading flex justify-between items-center">
+        <strong>Green Tech Initiative:</strong>
+        <span class="">Jan 2025</span>
       </h5>
       <p class="mb-6 text-body">
         Under the Green Innovation and Renewable System program, FISMPC installed solar microgrid system and water purifiers in 10 rural barangays.
@@ -139,7 +146,7 @@
 <div class="flex justify-center mt-6">
   <button type="submit"
     class="text-white bg-[#033E94] hover:bg-blue-900 focus:ring-4 focus:ring-blue-300 
-           shadow-md font-semibold rounded-xl text-xl px-18 py-4">
+           shadow-md rounded-xl text-2xl px-18 py-4">
     View all
   </button>
 </div>
