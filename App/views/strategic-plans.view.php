@@ -15,9 +15,18 @@
   <div class="relative p-10 w-full h-auto bg-[#F3F6FA] rounded-2xl p-6">
 
     <!-- Title -->
-    <div class="-ml-4 absolute top-4 left-0 bg-[#033E94] text-white px-6 py-2 rounded-br-[40px] text-2xl font-bold">
-      1. Philippine Inventors Enterprise Accelerator <span class="text-[#FFCC00]">(PIEA)</span>
-    </div>
+<!-- Original -->
+ <div class="-ml-4 absolute top-4 left-0 bg-gray-300 text-white px-[37%] py-6 rounded-br-[40px] text-2xl font-bold">
+</div>
+
+ <div class="-ml-4 absolute top-4 left-0 bg-[#829FCA] text-white px-[35%] py-6 rounded-br-[40px] text-2xl font-bold">
+</div>
+
+<div class="-ml-4 absolute top-4 left-0 bg-[#033E94] text-white px-6 py-2 rounded-br-[40px] text-2xl font-bold">
+  1. Philippine Inventors Enterprise Accelerator <span class="text-[#FFCC00]">(PIEA)</span>
+</div>
+
+<!-- Duplicate with lighter color -->
 
     <!-- Goal -->
     <div class="-ml-4 absolute top-20 left-0 bg-[#D70328] px-6 py-2 rounded-br-[40px] text-white text-2xl font-bold">
@@ -77,10 +86,10 @@
   </div>
 
   <!-- Full-width row for button -->
-  <div class="flex justify-center mt-6">
+  <div class="flex justify-center pb-5 mt-6">
     <button type="submit"
-      class="text-white bg-[#033E94] hover:bg-blue-900 focus:ring-4 focus:ring-blue-300 
-             shadow-md font-semibold rounded-xl text-xl px-8 py-2">
+      class="text-[#033E94] bg-[#F3F6FA] hover:bg-blue-900 focus:ring-4 focus:ring-blue-300 
+             shadow-md  rounded-xl text-xl px-8 py-2">
       View all
     </button>
   </div>
