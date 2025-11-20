@@ -40,7 +40,7 @@
     <!-- Column 2: stack of cards -->
     <!-- ✨ Added fixed height + scroll -->
     <div class="col-span-1 space-y-3 h-[600px] overflow-y-auto pr-2
-    md:space-y-8 md:mt-3 md:px-7 md:h-[450px]">
+    md:space-y-8 md:mt-3 md:px-7">
       <!-- Card 1 -->
       <div class="bg-white rounded-3xl shadow-xs flex flex-row max-w-xl">
         <img class="object-cover w-44 h-44 rounded-3xl" src="./public/assets/n2.jpg" alt="">

@@ -1,15 +1,16 @@
 <div class="relative">
-  <img src="public/assets/gallery.jpg" alt="Gallery background" class="w-full h-auto object-cover">
+  <img src="public/assets/gallery.jpg" alt="Gallery background" class="w-full h-auto object-cover sm:h-[15rem]">
 
   <!-- Overlay Title -->
-  <div class="absolute inset-0 flex items-start justify-center text-center pt-8">
-    <h1 class="text-white text-xl md:text-4xl font-semibold drop-shadow-lg">
+  <div class="absolute inset-0 flex flex-col items-center justify-center px-2 text-center mb-2">
+    <h1 class="text-white text-3xl md:text-4xl font-bold drop-shadow-lg mb-4">
       TESTIMONIALS
     </h1>
   </div>
 </div>
 
-<div class="relative -mt-32 px-20 ml-5">
+<div class="relative 
+ px-20 ml-5">
   <!-- Carousel Track -->
   <div id="carousel" class="flex overflow-hidden scroll-smooth gap-10 mb-8 max-w-full md:max-w-[1400px]">
 
