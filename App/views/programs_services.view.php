@@ -1,7 +1,7 @@
 <div class="relative">
   <img src="public/assets/productsandservices.jpg" alt="" class="w-full h-auto">
 
-  <div class="absolute inset-0 flex flex-col items-center justify-end px-4 text-center mb-6">
+  <div class="absolute inset-0 flex flex-col items-center justify-end px-4 text-center">
     <h1 class="text-white text-xl sm:text-2xl md:text-4xl font-bold drop-shadow-lg mb-1 sm:mb-2 md:mb-3">
       PROGRAMS & SERVICES
     </h1>
@@ -13,16 +13,16 @@
 
 
 <!-- Carousel + Text Wrapper with sharp 50/50 split background -->
-<div class="relative mt-5"
+<div class="relative"
     style="background: linear-gradient(to bottom, white 0 35%, #033E94 35% 100%);">
 
     <!-- Carousel Track -->
     <div id="carousel"
-        class="flex overflow-hidden scroll-smooth gap-6 py-10 px-6 md:px-12 lg:px-16">
+        class="flex overflow-hidden scroll-smooth gap-10 lg:gap-15 p-10 mx-23 md:px-12 lg:px-6">
 
         <!-- Card -->
         <div class="bg-white block rounded-3xl shadow-2xl transform transition duration-300 hover:scale-105 flex-shrink-0 
-                    w-full md:w-full lg:w-1/3">
+                    w-full md:w-full lg:w-3/10">
             <a href="#">
                 <img class="rounded-t-3xl w-full" src="public/assets/p1.jpg" alt="Invention Development & Commercialization" />
             </a>
@@ -39,7 +39,7 @@
         <!-- Repeat same structure for other cards -->
         <!-- Card 2 -->
         <div class="bg-white block rounded-3xl shadow-2xl transform transition duration-300 hover:scale-105 flex-shrink-0 
-                    w-full md:w-full lg:w-1/3">
+                    w-full md:w-full lg:w-3/10">
             <a href="#">
                 <img class="rounded-t-3xl w-full" src="public/assets/p2.jpg" alt="Cooperative Enterprise Development" />
             </a>
@@ -55,7 +55,7 @@
 
         <!-- Card 3 -->
         <div class="bg-white block rounded-3xl shadow-2xl transform transition duration-300 hover:scale-105 flex-shrink-0 
-                    w-full md:w-full lg:w-1/3">
+                    w-full md:w-full lg:w-3/10">
             <a href="#">
                 <img class="rounded-t-3xl w-full" src="public/assets/p3.jpg" alt="Research and Innovation Hubs" />
             </a>
@@ -71,7 +71,7 @@
 
         <!-- Card 4 -->
         <div class="bg-white block rounded-3xl shadow-2xl transform transition duration-300 hover:scale-105 flex-shrink-0 
-                    w-full md:w-full lg:w-1/3">
+                    w-full md:w-full lg:w-3/10">
             <a href="#">
                 <img class="rounded-t-3xl w-full" src="public/assets/p4.jpg" alt="National Innovation Advocacy" />
             </a>
@@ -87,7 +87,7 @@
 
         <!-- Card 5 -->
         <div class="bg-white block rounded-3xl shadow-2xl transform transition duration-300 hover:scale-105 flex-shrink-0 
-                    w-full md:w-full lg:w-1/3">
+                    w-full md:w-full lg:w-3/10">
             <a href="#">
                 <img class="rounded-t-3xl w-full" src="public/assets/p5.jpg" alt="Trade Fairs and Exhibitions" />
             </a>
@@ -104,13 +104,13 @@
 
     <!-- Navigation Buttons -->
     <button onclick="scrollCarousel(-1)"
-        class="absolute left-2 md:left-4 top-1/2 -translate-y-1/2 bg-white rounded-full shadow-lg p-2 md:p-3">
-        <img src="./public/assets/leftarrow.png" alt="Previous" class="w-6 h-6 md:w-8 md:h-8" />
+        class="absolute left-2 md:left-4 top-1/2 -translate-y-1/2 rounded-full p-2 md:p-3">
+        <img src="./public/assets/leftarrow.png" alt="Previous" class="w-12 h-12 md:w-15 md:h-15" />
     </button>
 
     <button onclick="scrollCarousel(1)"
-        class="absolute right-2 md:right-4 top-1/2 -translate-y-1/2 bg-white rounded-full shadow-lg p-2 md:p-3">
-        <img src="./public/assets/rightarrow.png" alt="Next" class="w-6 h-6 md:w-8 md:h-8" />
+        class="absolute right-2 md:right-4 top-1/2 -translate-y-1/2 rounded-full p-2 md:p-3">
+        <img src="./public/assets/rightarrow.png" alt="Next" class="w-12 h-12 md:w-15 md:h-15" />
     </button>
 
     <!-- Text under carousel -->
