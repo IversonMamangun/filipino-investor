@@ -1,3 +1,4 @@
+<div id="news-updates" class="py-20">
 <div class="relative bg-[#829FCA] w-[29rem] px-6 py-3 rounded-br-[40px]
             before:content-[''] before:absolute before:top-0 before:left-0 
             before:bg-[#033E94] before:rounded-br-[40px] before:h-full before:w-[27.5rem] before:z-0
@@ -107,7 +108,7 @@
 
   </div>
 </div>
-
+</div>
 <script>
   function toggleDetails(event, detailId) {
     const detail = document.getElementById(detailId);

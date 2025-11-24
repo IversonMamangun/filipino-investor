@@ -1,3 +1,4 @@
+<div id="testimonials">
 <div class="relative">
   <img src="public/assets/gallery.jpg" alt="Gallery background" class="w-full h-auto object-cover">
 
@@ -107,7 +108,7 @@
     <img src="./public/assets/rightarrow.png" alt="Next" class="w-20 h-20" />
   </button>
 </div>
-
+</div>
 <script>
   function scrollTestimonialCarousel(direction) {
     const carousel = document.getElementById('testimonial-carousel');

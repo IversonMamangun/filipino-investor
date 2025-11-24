@@ -1,3 +1,4 @@
+<div id="gallery">
 <div class="relative">
   <img src="public/assets/gallery.jpg" alt="" class="w-full h-auto md:h-[16rem]">
 
@@ -79,12 +80,12 @@
 <h1 class="text-5xl font-bold mx-[8%] my-10 text-[#033E94]">Video</h1>
 
 <!-- ✅ Centered Carousel -->
-<div class="relative max-w-7xl mx-auto overflow-hidden">
+<div class="relative max-w-7xl 2xl:max-w-[80%] mx-auto overflow-hidden">
   <!-- Carousel wrapper -->
   <div class="flex overflow-x-auto snap-x mx-15 snap-mandatory scroll-smooth">
 
     <!-- Slide 1 -->
-    <div class="block w-full md:w-4/3 p-6 rounded-xl shadow-lg mx-2 bg-white snap-center">
+    <div class="block w-full md:w-4/3  xl:w-5/3 p-6 rounded-xl shadow-lg mx-2 bg-white snap-center">
       <a href="#" class="relative block">
         <img class="rounded-xl shadow-lg w-full" src="./public/assets/v1.jpg" alt="Green Tech Initiative" />
         <img class="absolute inset-0 m-auto w-20 h-20 rounded-full shadow-lg" src="./public/assets/video.png" alt="Green Tech Initiative Icon" />
@@ -101,7 +102,7 @@
 
 
     <!-- Slide 2 -->
-    <div class="block w-full md:w-4/3 p-6 rounded-xl shadow-lg mx-2 bg-white snap-center">
+    <div class="block w-full md:w-4/3 p-6 xl:w-5/3  rounded-xl shadow-lg mx-2 bg-white snap-center">
 
       <a href="#" class="relative block">
         <img class="rounded-xl shadow-lg w-full" src="./public/assets/v1.jpg" alt="Green Tech Initiative" />
@@ -117,7 +118,7 @@
     </div>
 
     <!-- Slide 3 -->
-    <div class="block w-full md:w-4/3 p-6 rounded-xl shadow-lg mx-2 bg-white snap-center">
+    <div class="block w-full md:w-4/3 xl:w-5/3  p-6 rounded-xl shadow-lg mx-2 bg-white snap-center">
 
       <a href="#" class="relative block">
         <img class="rounded-xl shadow-lg w-full" src="./public/assets/v1.jpg" alt="Green Tech Initiative" />
@@ -184,4 +185,5 @@
       View all
     </button>
   </div>
+</div>
 </div>

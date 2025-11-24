@@ -1,3 +1,4 @@
+<div id="strategic-plans">
 <h1 class="text-4xl md:text-5xl font-bold text-center my-8 text-[#033E94]">
   STRATEGIC PLANS
   <span class="text-[#D70328]">2027-2028</span>
@@ -605,7 +606,7 @@
     Together, these stratigic programs ensure that FISMPC continues to empower Filipino inventors and drive sustainable, innovation across the country.
   </p>
 </div>
-
+</div>
 <script>
   const slides = document.querySelectorAll('#slides .slide');
   let currentIndex = 0;
