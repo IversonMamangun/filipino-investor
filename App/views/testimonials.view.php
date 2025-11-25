@@ -4,7 +4,7 @@
 
   <!-- Overlay Title -->
   <div class="absolute inset-0 flex items-start 2xl:items-center  justify-center text-center pt-8">
-    <h1 class="text-white text-xl md:text-4xl 2xl:text-6xl font-semibold drop-shadow-lg">
+    <h1 class="text-white text-xl md:text-4xl 2xl:text-4xl font-semibold drop-shadow-lg">
       TESTIMONIALS
     </h1>
   </div>
