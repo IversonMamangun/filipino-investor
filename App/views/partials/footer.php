@@ -23,7 +23,7 @@
           <li><a href="#" class="hover:underline">Home</a></li>
           <li><a href="#" class="hover:underline">About Us</a></li>
           <li><a href="#" class="hover:underline">Programs & Services</a></li>
-          <li><a href="#" class="hover:underline">Strategic Plan 2026-2027</a></li>
+          <li><a href="#" class="hover:underline">Strategic Plan 2026-2028</a></li>
         </ul>
       </div>
       <div>
