@@ -3,7 +3,7 @@
   ABOUT US
 </h1>
 
-<div class="grid grid-cols-1 lg:grid-cols-2 gap-8 px-4 lg:gap-2 lg:px-2 xl:gap-8 xl:px-20 mb-8">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-8 px-4 lg:gap-2 lg:px-2 xl:gap-8 xl:px-20 2xl:px-30 mb-8">
   <!-- Column 1: two rows -->
   <div class="grid grid-rows-1 gap-8">
     <!-- First block -->
