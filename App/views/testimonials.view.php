@@ -11,32 +11,28 @@
   </div>
   <div class="flex relative justify-center  -mt-32 mx-10  md:px-12 lg:px-20 ml-5 ">
     <!-- Carousel Track -->
-<div id="testimonial-carousel" 
-     class="flex overflow-hidden md:mt-12 scroll-smooth 
-            mx-10 mb-8 max-w-[1800px] p-7 owl-carousel">
+    <div id="testimonial-carousel"
+      class="flex overflow-hidden md:mt-12 scroll-smooth 
+            mx-10 mb-8 max-w-[1800px] xl:px-1 xl:mx-2 2xl:mx-10 2xl:px-1 p-7 owl-carousel owl-theme">
       <!-- Card 1 -->
       <div class="flex bg-white p-4 rounded-xl shadow-lg md:w-full
-                w-full xl:w-[300px] 2xl:w-auto
+                w-full xl:w-[300px] xl:w-[350px] xl:pt-8 2xl:w-auto 2xl:h-[25rem] 2xl:pt-10
                 max-h-[500px] h-auto flex-shrink-0 transition duration-300 hover:scale-105">
         <!-- Left Column -->
         <div class="flex flex-col justify-between items-center w-[30%] mr-2">
           <img class="object-cover w-auto h-auto rounded-full"
             src="public/assets/marisol.png" alt="Marisol D.">
-            <!-- This is the old card. Need revision
-              <i>
+          <i>
             <div class="text-[10rem] sm:text-[14rem] font-extrabold text-[#D70328] -mt-[4rem]
             lg:-mt-[2rem] xl:-mt-[1rem] 2xl:-mt-[8rem]
             sm:-mt-[6rem] pr-[2rem] sm:pr-[3rem] rotate-180">"</div>
-          </i> -->
-          <i>
-    <div class="absolute bottom-0 text-[10rem] sm:text-[14rem] font-extrabold text-[#D70328] rotate-180">"</div>
-  </i>
+          </i>
         </div>
         <!-- Right Column -->
         <div class="flex flex-col w-[65%] leading-normal">
-          <h5 class="text-lg sm:text-xl font-bold text-[#033E94]">Marisol D.</h5>
-          <i class="text-[#033E94] text-sm sm:text-xl">Teacher and FISMPC Member</i>
-          <p class="mt-8 xl:mt-3 text-gray-700 lg:text-base text-sm sm:text-xl">
+          <h5 class="text-lg sm:text-2xl font-bold text-[#033E94]">Marisol D.</h5>
+          <i class="text-[#033E94] text-sm sm:text-2xl">Teacher and FISMPC Member</i>
+          <p class="mt-8 xl:mt-3 text-gray-700 lg:text-base text-sm sm:text-2xl">
             Joining FISMPC was the turning point for my invention.
             The mentorship and funding I received helped me refine my solar irrigation prototype
             and bring it to rural farmers. Now it's making a real impact in our community!
@@ -46,7 +42,7 @@
 
       <!-- Card 2 -->
       <div class="flex bg-white p-4 rounded-xl shadow-lg md:w-full
-                w-full xl:w-[300px] 2xl:w-auto
+                w-full xl:w-[300px] xl:w-[350px] xl:pt-8 2xl:w-auto 2xl:h-[25rem] 2xl:pt-10
                 max-h-[500px] h-auto flex-shrink-0 transition duration-300 hover:scale-105">
         <div class="flex flex-col justify-between items-center w-[30%] mr-2">
           <img class="object-cover w-auto h-auto rounded-full"
@@ -58,9 +54,9 @@
           </i>
         </div>
         <div class="flex flex-col w-[65%] leading-normal">
-          <h5 class="text-lg sm:text-xl font-bold text-[#033E94]">Juan Carlo R.</h5>
-          <i class="text-[#033E94] text-sm sm:text-base">Renewable Energy Innovator</i>
-          <p class="mt-8 xl:mt-3 text-gray-700 lg:text-base text-sm sm:text-xl">
+          <h5 class="text-lg sm:text-2xl font-bold text-[#033E94]">Juan Carlo R.</h5>
+          <i class="text-[#033E94] text-sm sm:text-2xl">Renewable Energy Innovator</i>
+          <p class="mt-8 xl:mt-3 text-gray-700 lg:text-base text-sm sm:text-2xl">
             Thanks to FISMPC’s training programs, I was able to file a patent for my low-cost water purifier and connect with manufacturing partners. Their support opened doors I never knew existed.
           </p>
         </div>
@@ -68,7 +64,7 @@
 
       <!-- Card 3 -->
       <div class="flex bg-white p-4 rounded-xl shadow-lg md:w-full 
-                w-full xl:w-[300px] 2xl:w-auto
+                w-full xl:w-[300px] xl:w-[350px] xl:pt-8 2xl:w-auto 2xl:h-[25rem] 2xl:pt-10
                 max-h-[500px] h-auto flex-shrink-0 transition duration-300 hover:scale-105">
         <div class="flex flex-col justify-between items-center w-[30%] mr-2">
           <img class="object-cover w-auto h-auto rounded-full"
@@ -80,9 +76,9 @@
           </i>
         </div>
         <div class="flex flex-col w-[65%] leading-normal">
-          <h5 class="text-lg sm:text-xl font-bold text-[#033E94]">Lani P.</h5>
-          <i class="text-[#033E94] text-sm sm:text-base">Tech Startup Co-founder</i>
-          <p class="mt-8 xl:mt-3 text-gray-700 lg:text-base text-sm sm:text-xl">
+          <h5 class="text-lg sm:text-2xl font-bold text-[#033E94]">Lani P.</h5>
+          <i class="text-[#033E94] text-sm sm:text-2xl">Tech Startup Co-founder</i>
+          <p class="mt-8 xl:mt-3 text-gray-700 lg:text-base text-sm sm:text-2xl">
             FISMPC is like a family of inventors. We share ideas, resources, and celebrate each other’s successes. At Inventors Demo Day, our team even found an investor who believes in our project.
           </p>
         </div>
@@ -90,7 +86,7 @@
 
       <!-- card 4 -->
       <div class="flex bg-white p-4 rounded-xl shadow-lg md:w-full 
-                w-full xl:w-[300px] 2xl:w-auto
+                w-full xl:w-[300px] xl:w-[350px] xl:pt-8 2xl:w-auto 2xl:h-[25rem] 2xl:pt-10
                 max-h-[500px] h-auto flex-shrink-0 transition duration-300 hover:scale-105">
         <div class="flex flex-col justify-between items-center w-[30%] mr-2">
           <img class="object-cover w-auto h-auto rounded-full"
@@ -102,55 +98,64 @@
           </i>
         </div>
         <div class="flex flex-col w-[65%] leading-normal">
-          <h5 class="text-lg sm:text-xl font-bold text-[#033E94]">Miguel S.</h5>
-          <i class="text-[#033E94] text-sm sm:text-base">Agritech Entrepreneur</i>
-          <p class="mt-8 xl:mt-3 text-gray-700 lg:text-base text-sm sm:text-xl">
+          <h5 class="text-lg sm:text-2xl font-bold text-[#033E94]">Miguel S.</h5>
+          <i class="text-[#033E94] text-sm sm:text-2xl">Agritech Entrepreneur</i>
+          <p class="mt-8 xl:mt-3 text-gray-700 lg:text-base text-sm sm:text-2xl">
             Our cooperative has truly empowered me. From workshops on business planning to access to cooperative loans, FISMPC has provided everything I needed to turn my prototype into a social enterprise. </p>
         </div>
       </div>
     </div>
 
     <!-- Navigation Buttons -->
-<button id="prevBtn"
-            class="absolute left-2 md:left-4 top-1/2 -translate-y-1/2 rounded-full p-2 md:p-3">
-            <img src="./public/assets/leftarrow.png" alt="Previous" class="w-12 h-12 md:w-16 md:h-16" /> </button>
-
-        <button id="nextBtn"
-            class="absolute right-2 md:right-4 top-1/2 -translate-y-1/2 rounded-full p-2 md:p-3">
-            <img src="./public/assets/rightarrow.png" alt="Next" class="w-12 h-12 md:w-16 md:h-16" />
+   <div class="absolute inset-y-0 left-0 flex items-center px-8 md:px-0 md:pr-15 z-20 pointer-events-none">
+        <button id="testimonialPrevBtn" class="bg-white rounded-full shadow-md hover:bg-gray-200 pointer-events-auto">
+          <img src="./public/assets/leftarrow.png" alt="Previous" class="w-20 h-20" />
         </button>
+      </div>
+  
+      <div class="absolute inset-y-0 right-0 flex items-center px-8 md:px-0 md:pl-15 z-20 pointer-events-none">
+        <button id="testimonialNextBtn" class="bg-white rounded-full shadow-md hover:bg-gray-200 pointer-events-auto">
+          <img src="./public/assets/rightarrow.png" alt="Next" class="w-20 h-20" />
+        </button>
+      </div>
 
   </div>
 </div>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 <script>
-$(document).ready(function() {
-  const owl = $("#testimonial-carousel").owlCarousel({
-    loop: true,
-    margin: 70,
-    autoplay: false,
-    autoplayTimeout: 3000,
-    autoplayHoverPause: true,
-    nav: false,
-    dots: false,
-    responsive: {
-      0: { items: 1 },
-      640: { items: 1 },
-      1024: { items: 2 },
-      1280: { items: 3 }
-    }
-  });
-   $("#nextBtn").click(function() {
-    owl.trigger("next.owl.carousel");
-  });
-  $("#prevBtn").click(function() {
-    owl.trigger("prev.owl.carousel");
-  });
-});
+  $(document).ready(function() {
+    const owl = $("#testimonial-carousel").owlCarousel({
+      loop: true,
+      margin: 70,
+      autoplay: false,
+      autoplayTimeout: 3000,
+      autoplayHoverPause: true,
+      nav: false,
+      dots: false,
+      smartSpeed: 700,
+      responsive: {
+        0: {
+          items: 1
+        },
+        640: {
+          items: 1
+        },
+        1024: {
+          items: 2
+        },
+        1280: {
+          items: 3
+        }
+      }
+    });
+    $('#testimonialNextBtn').click(function() {
+      owl.trigger('next.owl.carousel');
+    });
 
-
+    $('#testimonialPrevBtn').click(function() {
+      owl.trigger('prev.owl.carousel');
+    });
+  });
 </script>

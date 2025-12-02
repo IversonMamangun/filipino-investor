@@ -1,6 +1,6 @@
 <div id="program-services">
     <div class="relative">
-        <img src="public/assets/productsandservices.jpg" alt="" class="w-full h-auto md:h-[12rem]">
+        <img src="public/assets/productsandservices.jpg" alt="" class="w-full h-auto md:h-[12rem] object-cover">
 
         <div class="absolute inset-0 flex flex-col items-center justify-center px-4 text-center">
             <h1 class="text-white text-xl sm:text-2xl md:text-5xl 2xl:text-4xl xl:text-4xl font-bold drop-shadow-lg mb-1 sm:mb-2 md:mb-3">
@@ -13,110 +13,111 @@
     </div>
 
 
-    <!-- Carousel + Text Wrapper with sharp 50/50 split background -->
-    <div class="relative"
-        style="background: linear-gradient(to bottom, white 0 35%, #033E94 35% 100%);">
+    <div class="relative" style="background: linear-gradient(to bottom, white 0 35%, #033E94 35% 100%);">
 
-        <!-- Carousel Track -->
-<div id="carousel"
-     class="owl-carousel p-10 md:px-12 lg:px-6 flex justify-center xl:px-[8rem]">
+        <div id="carousel" class="owl-carousel owl-theme !py-16 px-10 md:px-12 lg:px-6 flex justify-center xl:px-[8rem]">
 
-    <!-- Card 1 -->
-    <div class="bg-white block rounded-3xl shadow-2xl transform transition duration-300 hover:scale-105 
-                flex-shrink-0 w-80 md:w-96 xl:w-auto mx-auto text-center">
-        <a href="#">
-            <img class="rounded-t-3xl w-full" src="public/assets/p1.jpg" alt="Invention Development & Commercialization" />
-        </a>
-        <a href="#">
-            <h5 class="p-5 text-xl sm:text-2xl font-bold tracking-tight text-[#033E94]">
-                Invention Development & Commercialization
-            </h5>
-        </a>
-        <p class="mb-6 px-5 text-sm sm:text-base">
-            We help inventors refine their prototypes and provide assistance with intellectual property registration and patent facilitation.
-        </p>
-    </div>
+            <div class="card-inner bg-white block rounded-3xl shadow-lg transition-all duration-500 ease-out transform
+                w-full md:w-[95%] lg:w-auto h-[34rem] flex flex-col mx-auto text-start border border-gray-100 overflow-hidden ">
+                <a href="#" class="block flex-shrink-0">
+                    <img class="w-full h-64 object-cover" src="public/assets/p1.jpg" alt="Invention Development & Commercialization" />
+                </a>
+                <div class="flex flex-col flex-grow p-6">
+                    <a href="#">
+                        <h5 class="text-lg sm:text-2xl md:text-3xl lg:text-2xl xl:text-2xl font-bold tracking-tight text-[#033E94] mb-3 line-clamp-2">
+                            Invention Development & Commercialization
+                        </h5>
+                    </a>
+                    <p class="text-base sm:text-2xl lg:text-2xl xl:text-xl text-gray-600 leading-relaxed overflow-hidden">
+                        We help inventors refine their prototypes and provide assistance with intellectual property registration.
+                    </p>
+                </div>
+            </div>
 
-    <!-- Card 2 -->
-    <div class="bg-white block rounded-3xl shadow-2xl transform transition duration-300 hover:scale-105 
-                flex-shrink-0 w-80 md:w-96 xl:w-auto mx-auto text-center">
-        <a href="#">
-            <img class="rounded-t-3xl w-full" src="public/assets/p2.jpg" alt="Cooperative Enterprise Development" />
-        </a>
-        <a href="#">
-            <h5 class="p-5 text-xl sm:text-2xl font-bold tracking-tight text-[#033E94]">
-                Cooperative Enterprise Development
-            </h5>
-        </a>
-        <p class="mb-6 px-5 text-sm sm:text-base">
-            We provide access to cooperative credit and livelihood programs so that innovators can turn their ideas into sustainable business.
-        </p>
-    </div>
+            <div class="card-inner bg-white block rounded-3xl shadow-lg transition-all duration-500 ease-out transform
+                w-full h-[34rem] flex flex-col mx-auto text-start border border-gray-100 overflow-hidden">
+                <a href="#" class="block flex-shrink-0">
+                    <img class="w-full h-64 object-cover" src="public/assets/p2.jpg" alt="Cooperative Enterprise Development" />
+                </a>
+                <div class="flex flex-col flex-grow p-6">
+                    <a href="#">
+                        <h5 class="text-lg sm:text-2xl md:text-3xl lg:text-2xl xl:text-2xl font-bold tracking-tight text-[#033E94] mb-3 line-clamp-2">
+                            Cooperative Enterprise Development
+                        </h5>
+                    </a>
+                    <p class="text-base sm:text-2xl lg:text-2xl xl:text-xl text-gray-600 leading-relaxed overflow-hidden">
+                        We provide access to cooperative credit and livelihood programs so that innovators can turn their ideas into sustainable business.
+                    </p>
+                </div>
+            </div>
 
-    <!-- Card 3 -->
-    <div class="bg-white block rounded-3xl shadow-2xl transform transition duration-300 hover:scale-105 
-                flex-shrink-0 w-80 md:w-96 xl:w-auto mx-auto text-center">
-        <a href="#">
-            <img class="rounded-t-3xl w-full" src="public/assets/p3.jpg" alt="Research and Innovation Hubs" />
-        </a>
-        <a href="#">
-            <h5 class="p-5 text-xl sm:text-2xl font-bold tracking-tight text-[#033E94]">
-                Research and Innovation Hubs
-            </h5>
-        </a>
-        <p class="mb-6 px-5 text-sm sm:text-base">
-            We establish shared laboratories and fabrication centers where members can collaborate, experiment, and build their technologies together.
-        </p>
-    </div>
+            <div class="card-inner bg-white block rounded-3xl shadow-lg transition-all duration-500 ease-out transform
+                w-full md:w-[95%] lg:w-auto h-[34rem] flex flex-col mx-auto text-start border border-gray-100 overflow-hidden">
+                <a href="#" class="block flex-shrink-0">
+                    <img class="w-full h-64 object-cover" src="public/assets/p3.jpg" alt="Research and Innovation Hubs" />
+                </a>
+                <div class="flex flex-col flex-grow p-6">
+                    <a href="#">
+                        <h5 class="text-lg sm:text-2xl md:text-3xl lg:text-2xl xl:text-2xl font-bold tracking-tight text-[#033E94] mb-3 line-clamp-2">
+                            Research and Innovation Hubs
+                        </h5>
+                    </a>
+                    <p class="text-base sm:text-2xl lg:text-2xl xl:text-xl text-gray-600 leading-relaxed overflow-hidden">
+                        We establish shared laboratories and fabrication centers where members can collaborate, experiment, and build.
+                    </p>
+                </div>
+            </div>
 
-    <!-- Card 4 -->
-    <div class="bg-white block rounded-3xl shadow-2xl transform transition duration-300 hover:scale-105 
-                flex-shrink-0 w-80 md:w-96 xl:w-auto mx-auto text-center">
-        <a href="#">
-            <img class="rounded-t-3xl w-full" src="public/assets/p4.jpg" alt="National Innovation Advocacy" />
-        </a>
-        <a href="#">
-            <h5 class="p-5 text-xl sm:text-2xl font-bold tracking-tight text-[#033E94]">
-                National Innovation Advocacy
-            </h5>
-        </a>
-        <p class="mb-6 px-5 text-sm sm:text-base">
-            We engage with policymakers and run awareness campaigns to promote the importance of invention in national development.
-        </p>
-    </div>
+            <div class="card-inner bg-white block rounded-3xl shadow-lg transition-all duration-500 ease-out transform
+                w-full md:w-[95%] lg:w-auto h-[34rem] flex flex-col mx-auto text-start border border-gray-100 overflow-hidden">
+                <a href="#" class="block flex-shrink-0">
+                    <img class="w-full h-64 object-cover" src="public/assets/p4.jpg" alt="National Innovation Advocacy" />
+                </a>
+                <div class="flex flex-col flex-grow p-6">
+                    <a href="#">
+                        <h5 class="text-lg sm:text-2xl md:text-3xl lg:text-2xl xl:text-2xl font-bold tracking-tight text-[#033E94] mb-3 line-clamp-2">
+                            National Innovation Advocacy
+                        </h5>
+                    </a>
+                    <p class="text-base sm:text-2xl lg:text-2xl xl:text-xl text-gray-600 leading-relaxed overflow-hidden">
+                        We engage with policymakers and run awareness campaigns to promote the importance of invention in national development.
+                    </p>
+                </div>
+            </div>
 
-    <!-- Card 5 -->
-    <div class="bg-white block rounded-3xl shadow-2xl transform transition duration-300 hover:scale-105 
-                flex-shrink-0 w-80 md:w-96 xl:w-auto mx-auto text-center">
-        <a href="#">
-            <img class="rounded-t-3xl w-full" src="public/assets/p5.jpg" alt="Trade Fairs and Exhibitions" />
-        </a>
-        <a href="#">
-            <h5 class="p-5 text-xl sm:text-2xl font-bold tracking-tight text-[#033E94]">
-                Trade Fairs and Exhibitions
-            </h5>
-        </a>
-        <p class="mb-6 px-5 text-sm sm:text-base">
-            We host events like the National Inventors Week to showcase Filipino-made technologies, connect inventors with industry partners, and celebrate our community's achievements.
-        </p>
-    </div>
-    
-</div>
+            <div class="card-inner bg-white block rounded-3xl shadow-lg transition-all duration-500 ease-out transform
+                w-full md:w-[95%] lg:w-auto h-[34rem] flex flex-col mx-auto text-start border border-gray-100 overflow-hidden">
+                <a href="#" class="block flex-shrink-0">
+                    <img class="w-full h-64 object-cover" src="public/assets/p5.jpg" alt="Trade Fairs and Exhibitions" />
+                </a>
+                <div class="flex flex-col flex-grow p-6">
+                    <a href="#">
+                        <h5 class="text-lg sm:text-2xl md:text-3xl lg:text-2xl xl:text-2xl font-bold tracking-tight text-[#033E94] mb-3 line-clamp-2">
+                            Trade Fairs and Exhibitions
+                        </h5>
+                    </a>
+                    <p class="text-base sm:text-2xl lg:text-2xl xl:text-xl text-gray-600 leading-relaxed overflow-hidden">
+                        We host events like the National Inventors Week to showcase Filipino-made technologies and connect inventors.
+                    </p>
+                </div>
+            </div>
+        </div>
 
 
-        <!-- Navigation Buttons -->
-        <button id="prevBtn"
-            class="absolute left-2 md:left-4 top-1/2 -translate-y-1/2 rounded-full p-2 md:p-3">
-            <img src="./public/assets/leftarrow.png" alt="Previous" class="w-12 h-12 md:w-16 md:h-16" /> </button>
+        <div class="absolute inset-y-0 left-0 flex items-center px-8 md:px-0 md:pr-15 z-40 pointer-events-none">
+            <button id="programPrevBtn" class="bg-white rounded-full shadow-md hover:bg-gray-200 pointer-events-auto transition-transform hover:scale-110 active:scale-95">
+                <img src="./public/assets/leftarrow.png" alt="Previous" class="w-20 h-20" />
+            </button>
+        </div>
 
-        <button id="nextBtn"
-            class="absolute right-2 md:right-4 top-1/2 -translate-y-1/2 rounded-full p-2 md:p-3">
-            <img src="./public/assets/rightarrow.png" alt="Next" class="w-12 h-12 md:w-16 md:h-16" />
-        </button>
-
-        <!-- Text under carousel -->
-        <div class="px-6 md:px-12 lg:px-25 py-10">
-            <p class="text-white text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed">
+        <div class="absolute inset-y-0 right-0 flex items-center px-8 md:px-0 md:pl-15 z-40 pointer-events-none">
+            <button id="programNextBtn" class="bg-white rounded-full shadow-md hover:bg-gray-200 pointer-events-auto transition-transform hover:scale-110 active:scale-95">
+                <img src="./public/assets/rightarrow.png" alt="Next" class="w-20 h-20" />
+            </button>
+        </div>
+        
+        <div class="px-6 md:px-12 lg:px-25 pb-10 relative z-30">
+            <p class="text-white text-sm sm:text-xl md:text-2xl lg:text-xl leading-relaxed">
                 Through these programs, FISMPC ensures that the resources needed for invention,
                 from training and mentorship to funding and market access are available to our members.
                 We also work closely with partners such as the Department of Science and Technology, DTI,
@@ -128,46 +129,70 @@
     </div>
 </div>
 
-<style>
-    /* Active card style */
-    .active {
-        transform: scale(1.1);
-        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
-    }
-
-    #prevBtn,
-    #nextBtn {
-        z-index: 50;
-        /* ensures buttons are above carousel items */
-    }
-</style>
-
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
 <script>
-$(document).ready(function() {
-    $("#carousel").owlCarousel({
-        loop: true,
-        margin: 20,
-        autoplay: true,
-        autoplayTimeout: 3000,
-        autoplayHoverPause: true,
-        nav: false,
-        dots: false,
-        responsive: {
-            0: { items: 1 },
-            640: { items: 1 },
-            1024: { items: 2 },
-            1280: { items: 3 }
+    $(document).ready(function() {
+        // Active: Scale up (105%), High Z-index, Blue Ring
+        const activeClasses = "scale-105 z-20 ring-4 ring-[#033E94]/20 shadow-2xl";
+        
+        // Inactive: Scale down (95%), No Opacity change (Fully visible)
+        // This fixes the "Not Transparent" issue.
+        const inactiveClasses = "scale-95 z-0 shadow-lg";
+
+        const owl = $("#carousel");
+
+        owl.owlCarousel({
+            loop: true,
+            margin: 35, // Increased gap from 20 to 30
+            stagePadding: 30, // Added padding to the stage so cut-off cards look better
+            autoplay: false,
+            nav: false,
+            smartSpeed: 500,
+            dots: false,
+            responsive: {
+                0: { items: 1, margin: 20, stagePadding: 20 }, // Smaller gap on mobile
+                640: { items: 1, margin: 20 },
+                1024: { items: 2 },
+                1280: { items: 3 }
+            },
+            onInitialized: updateZoomState,
+            onTranslated: updateZoomState
+        });
+
+        function updateZoomState() {
+            // Reset all cards to inactive size
+            $('.card-inner')
+                .removeClass(activeClasses)
+                .addClass(inactiveClasses);
+
+            // Find the first visible card and make it Active
+            let firstVisibleItem = $('.owl-item.active').first().find('.card-inner');
+            
+            firstVisibleItem
+                .removeClass(inactiveClasses)
+                .addClass(activeClasses);
         }
+
+        // Hover Logic
+        $('.owl-item').mouseenter(function() {
+            // Shrink everyone
+            $('.card-inner').removeClass(activeClasses).addClass(inactiveClasses);
+            // Grow the hovered one
+            $(this).find('.card-inner').removeClass(inactiveClasses).addClass(activeClasses);
+        });
+
+        $('#carousel').mouseleave(function() {
+            updateZoomState();
+        });
+
+        $('#programNextBtn').click(function() {
+            owl.trigger('next.owl.carousel');
+        });
+
+        $('#programPrevBtn').click(function() {
+            owl.trigger('prev.owl.carousel');
+        });
     });
-
-    $("#nextBtn").click(() => $("#carousel").trigger('next.owl.carousel'));
-    $("#prevBtn").click(() => $("#carousel").trigger('prev.owl.carousel'));
-});
-
 </script>
