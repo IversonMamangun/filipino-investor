@@ -405,21 +405,21 @@
           </div>
         </div>
           <div class="flex justify-center pb-5 mt-6 lg:pb-5 lg:mt-6">
-            <button type="submit" class="text-[#033E94] bg-[#F3F6FA] hover:bg-gray-400 focus:ring-4 focus:ring-gray-300 shadow-md rounded-xl text-xl px-8 py-2">
+            <button type="submit" class="text-[#033E94] hover:text-white bg-[#F3F6FA] hover:bg-blue-600 focus:ring-4 focus:ring-gray-300 shadow-md rounded-xl text-xl px-8 py-2 cursor-pointer">
               View all
             </button>
           </div>
       </div>
 
       <div class="absolute inset-y-0 left-0 flex items-center px-8 md:px-0 md:pr-15 z-20 pointer-events-none">
-        <button id="customPrevBtn" class="bg-white rounded-full shadow-md hover:bg-gray-200 pointer-events-auto">
-          <img src="./public/assets/leftarrow.png" alt="Previous" class="w-20 h-20" />
+        <button id="customPrevBtn" class="bg-white rounded-full shadow-md hover:bg-gray-200 pointer-events-auto cursor-pointer">
+          <img src="./public/assets/leftarrow.png" alt="Previous" class="w-20 h-20 hover:bg-blue-600 rounded-full p-1" />
         </button>
       </div>
 
       <div class="absolute inset-y-0 right-0 flex items-center px-8 md:px-0 md:pl-15 z-20 pointer-events-none">
-        <button id="customNextBtn" class="bg-white rounded-full shadow-md hover:bg-gray-200 pointer-events-auto">
-          <img src="./public/assets/rightarrow.png" alt="Next" class="w-20 h-20" />
+        <button id="customNextBtn" class="bg-white rounded-full shadow-md hover:bg-gray-200 pointer-events-auto cursor-pointer">
+          <img src="./public/assets/rightarrow.png" alt="Next" class="w-20 h-20 hover:bg-blue-600 rounded-full p-1" />
         </button>
       </div>
 

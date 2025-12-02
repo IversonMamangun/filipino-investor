@@ -18,7 +18,7 @@
         <div id="carousel" class="owl-carousel owl-theme !py-16 px-10 md:px-12 lg:px-6 flex justify-center xl:px-[8rem]">
 
             <div class="card-inner bg-white block rounded-3xl shadow-lg transition-all duration-500 ease-out transform
-                w-full md:w-[95%] lg:w-auto h-[34rem] flex flex-col mx-auto text-start border border-gray-100 overflow-hidden ">
+                w-full m-4 md:w-[95%] lg:w-auto h-[34rem] flex flex-col mx-auto text-start border border-gray-100 overflow-hidden ">
                 <a href="#" class="block flex-shrink-0">
                     <img class="w-full h-64 object-cover" src="public/assets/p1.jpg" alt="Invention Development & Commercialization" />
                 </a>
@@ -35,7 +35,7 @@
             </div>
 
             <div class="card-inner bg-white block rounded-3xl shadow-lg transition-all duration-500 ease-out transform
-                w-full h-[34rem] flex flex-col mx-auto text-start border border-gray-100 overflow-hidden">
+                w-full m-4 md:w-[95%] lg:w-auto h-[34rem] flex flex-col mx-auto text-start border border-gray-100 overflow-hidden">
                 <a href="#" class="block flex-shrink-0">
                     <img class="w-full h-64 object-cover" src="public/assets/p2.jpg" alt="Cooperative Enterprise Development" />
                 </a>
@@ -52,7 +52,7 @@
             </div>
 
             <div class="card-inner bg-white block rounded-3xl shadow-lg transition-all duration-500 ease-out transform
-                w-full md:w-[95%] lg:w-auto h-[34rem] flex flex-col mx-auto text-start border border-gray-100 overflow-hidden">
+                w-full m-4 md:w-[95%] lg:w-auto h-[34rem] flex flex-col mx-auto text-start border border-gray-100 overflow-hidden">
                 <a href="#" class="block flex-shrink-0">
                     <img class="w-full h-64 object-cover" src="public/assets/p3.jpg" alt="Research and Innovation Hubs" />
                 </a>
@@ -69,7 +69,7 @@
             </div>
 
             <div class="card-inner bg-white block rounded-3xl shadow-lg transition-all duration-500 ease-out transform
-                w-full md:w-[95%] lg:w-auto h-[34rem] flex flex-col mx-auto text-start border border-gray-100 overflow-hidden">
+                w-full m-4 md:w-[95%] lg:w-auto h-[34rem] flex flex-col mx-auto text-start border border-gray-100 overflow-hidden">
                 <a href="#" class="block flex-shrink-0">
                     <img class="w-full h-64 object-cover" src="public/assets/p4.jpg" alt="National Innovation Advocacy" />
                 </a>
@@ -86,7 +86,7 @@
             </div>
 
             <div class="card-inner bg-white block rounded-3xl shadow-lg transition-all duration-500 ease-out transform
-                w-full md:w-[95%] lg:w-auto h-[34rem] flex flex-col mx-auto text-start border border-gray-100 overflow-hidden">
+                w-full m-3 md:w-[95%] lg:w-auto h-[34rem] flex flex-col mx-auto text-start border border-gray-100 overflow-hidden">
                 <a href="#" class="block flex-shrink-0">
                     <img class="w-full h-64 object-cover" src="public/assets/p5.jpg" alt="Trade Fairs and Exhibitions" />
                 </a>
@@ -105,14 +105,14 @@
 
 
         <div class="absolute inset-y-0 left-0 flex items-center px-8 md:px-0 md:pr-15 z-40 pointer-events-none">
-            <button id="programPrevBtn" class="bg-white rounded-full shadow-md hover:bg-gray-200 pointer-events-auto transition-transform hover:scale-110 active:scale-95">
-                <img src="./public/assets/leftarrow.png" alt="Previous" class="w-20 h-20" />
+            <button id="programPrevBtn" class="bg-white rounded-full shadow-md hover:bg-gray-200 pointer-events-auto cursor-pointer">
+                <img src="./public/assets/leftarrow.png" alt="Previous" class="w-20 h-20 hover:bg-blue-600 rounded-full p-1" />
             </button>
         </div>
 
         <div class="absolute inset-y-0 right-0 flex items-center px-8 md:px-0 md:pl-15 z-40 pointer-events-none">
-            <button id="programNextBtn" class="bg-white rounded-full shadow-md hover:bg-gray-200 pointer-events-auto transition-transform hover:scale-110 active:scale-95">
-                <img src="./public/assets/rightarrow.png" alt="Next" class="w-20 h-20" />
+            <button id="programNextBtn" class="bg-white rounded-full shadow-md hover:bg-gray-200 pointer-events-auto cursor-pointer">
+                <img src="./public/assets/rightarrow.png" alt="Next" class="w-20 h-20 hover:bg-blue-600 rounded-full p-1" />
             </button>
         </div>
         

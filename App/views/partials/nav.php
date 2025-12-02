@@ -34,7 +34,7 @@
       <a href="login" class="text-blue-900 rounded-md px-4 py-2 md:text-4xl xl:text-lg text-base font-medium hover:text-[#022e6f] transition">
         Log in
       </a>
-      <button type="button" class="text-white bg-[#033E94] hover:bg-[#022e6f] rounded-lg xl:px-3 px-6 py-2 md:text-4xl xl:text-lg md:font-medium text-base font-semibold shadow-md transition">
+      <button type="button" class="text-white bg-[#033E94] hover:bg-blue-600 rounded-lg xl:px-3 px-6 py-2 md:text-4xl xl:text-lg md:font-medium text-base font-semibold shadow-md transition">
         Join us
       </button>
       <!-- Mobile Menu Toggle -->

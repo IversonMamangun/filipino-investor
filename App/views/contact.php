@@ -56,7 +56,7 @@
           </div>
           <div class="flex justify-end mt-4 relative">
             <button type="submit"
-              class="text-white bg-[#033E94] hover:bg-blue-900 focus:ring-4 focus:ring-blue-300 shadow-md font-larger rounded-3xl text-sm px-6 py-3 md:px-15 md:text-lg
+              class="text-white bg-[#033E94] hover:bg-blue-600 focus:ring-4 cursor-pointer focus:ring-blue-300 shadow-md font-larger rounded-3xl text-sm px-6 py-3 md:px-15 md:text-lg
                     lg:absolute lg:transform lg:-translate-y-1/10 lg:z-10
                     md:static md:transform-none md:translate-y-0">
               Send
