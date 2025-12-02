@@ -15,7 +15,7 @@
       class="flex overflow-hidden md:mt-12 scroll-smooth 
             mx-10 mb-8 max-w-[1800px] xl:px-1 xl:mx-2 2xl:mx-10 2xl:px-1 p-7 owl-carousel owl-theme">
       <!-- Card 1 -->
-      <div class="flex bg-white p-4 rounded-xl shadow-lg md:w-full
+      <div class="flex bg-white p-4 m-3 rounded-xl shadow-lg md:w-full
                 w-full xl:w-[300px] xl:w-[350px] xl:pt-8 2xl:w-auto 2xl:h-[25rem] 2xl:pt-10
                 max-h-[500px] h-auto flex-shrink-0 transition duration-300 hover:scale-105">
         <!-- Left Column -->
@@ -41,7 +41,7 @@
       </div>
 
       <!-- Card 2 -->
-      <div class="flex bg-white p-4 rounded-xl shadow-lg md:w-full
+      <div class="flex bg-white p-4 m-3 rounded-xl shadow-lg md:w-full
                 w-full xl:w-[300px] xl:w-[350px] xl:pt-8 2xl:w-auto 2xl:h-[25rem] 2xl:pt-10
                 max-h-[500px] h-auto flex-shrink-0 transition duration-300 hover:scale-105">
         <div class="flex flex-col justify-between items-center w-[30%] mr-2">
@@ -63,7 +63,7 @@
       </div>
 
       <!-- Card 3 -->
-      <div class="flex bg-white p-4 rounded-xl shadow-lg md:w-full 
+      <div class="flex bg-white p-4 m-3 rounded-xl shadow-lg md:w-full 
                 w-full xl:w-[300px] xl:w-[350px] xl:pt-8 2xl:w-auto 2xl:h-[25rem] 2xl:pt-10
                 max-h-[500px] h-auto flex-shrink-0 transition duration-300 hover:scale-105">
         <div class="flex flex-col justify-between items-center w-[30%] mr-2">
@@ -85,7 +85,7 @@
       </div>
 
       <!-- card 4 -->
-      <div class="flex bg-white p-4 rounded-xl shadow-lg md:w-full 
+      <div class="flex bg-white p-4 m-3 rounded-xl shadow-lg md:w-full 
                 w-full xl:w-[300px] xl:w-[350px] xl:pt-8 2xl:w-auto 2xl:h-[25rem] 2xl:pt-10
                 max-h-[500px] h-auto flex-shrink-0 transition duration-300 hover:scale-105">
         <div class="flex flex-col justify-between items-center w-[30%] mr-2">
