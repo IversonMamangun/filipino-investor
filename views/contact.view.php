@@ -76,7 +76,7 @@
 
           <!-- Phone block -->
           <div class="flex items-center gap-3 bg-[#829FCA] text-[#F3F6FA] rounded-lg shadow-md p-4 mb-5">
-            <img src="../public/assets/mobile.png" alt="Phone Icon" class="w-10 h-10" />
+            <img src="assets/mobile.png" alt="Phone Icon" class="w-10 h-10" />
             <div class="flex flex-col">
               <h3 class="text-lg font-semibold">Phone Number:</h3>
               <p>(+63) 233 456 7890</p>
@@ -85,7 +85,7 @@
 
           <!-- Email block -->
           <div class="flex items-center gap-3 bg-[#829FCA] text-[#F3F6FA] rounded-lg shadow-md p-4 mb-5">
-            <img src="../public/assets/email.png" alt="Email Icon" class="w-10 h-6" />
+            <img src="assets/email.png" alt="Email Icon" class="w-10 h-6" />
             <div class="flex flex-col">
               <h3 class="text-lg font-semibold">Email Address:</h3>
               <p>info@fisinvestorscoop.org</p>
@@ -94,7 +94,7 @@
 
           <!-- Address block -->
           <div class="flex items-start gap-3 bg-[#829FCA] text-[#F3F6FA] rounded-lg shadow-md p-5 mb-5">
-            <img src="../public/assets/address.png" alt="Address Icon" class="w-5 h-6" />
+            <img src="assets/address.png" alt="Address Icon" class="w-5 h-6" />
             <div class="flex flex-col">
               <h3 class="text-lg font-semibold">Address:</h3>
               <p>
@@ -108,11 +108,11 @@
             Follow us on social media for the latest updates!
           </p>
           <div class="flex flex-row gap-5">
-            <img src="../public/assets/fb.png" alt="Facebook Icon" class="w-15 h-15" />
-            <img src="../public/assets/yt.png" alt="Youtube Icon" class="w-15 h-15" />
-            <img src="../public/assets/ig.png" alt="Instagram Icon" class="w-15 h-15" />
-            <img src="../public/assets/x.png" alt="Twitter Icon" class="w-15 h-15" />
-            <img src="../public/assets/tiktok.png" alt="TikTok Icon" class="w-15 h-15" />
+            <img src="assets/fb.png" alt="Facebook Icon" class="w-15 h-15" />
+            <img src="assets/yt.png" alt="Youtube Icon" class="w-15 h-15" />
+            <img src="assets/ig.png" alt="Instagram Icon" class="w-15 h-15" />
+            <img src="assets/x.png" alt="Twitter Icon" class="w-15 h-15" />
+            <img src="assets/tiktok.png" alt="TikTok Icon" class="w-15 h-15" />
           </div>
         </div>
       </div>

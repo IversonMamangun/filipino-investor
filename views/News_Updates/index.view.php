@@ -16,7 +16,7 @@
       <div class="px-4 md:px-1">
         <div class="bg-white rounded-3xl shadow-xs">
           <a href="#" class="relative block">
-            <img class="rounded-t-2xl w-full h-60 md:h-75 object-cover" src="../public/assets/n1.jpg" alt="" />
+            <img class="rounded-t-2xl w-full h-60 md:h-75 object-cover" src="assets/n1.jpg" alt="" />
             <div class="absolute -ml-5 top-5 left-0 bg-gradient-to-tr 
               from-yellow-600 via-yellow-400 to-yellow-600
               text-white pl-10 pr-20 py-1 rounded-br-3xl text-2xl md:text-3xl font-semibold text-left">
@@ -43,7 +43,7 @@
     ">
         <!-- Card 1 -->
         <div class="bg-white rounded-3xl shadow-xs flex flex-row max-w-auto">
-          <img class="object-cover w-44 h-44 rounded-3xl" src="../public/assets/n2.jpg" alt="">
+          <img class="object-cover w-44 h-44 rounded-3xl" src="assets/n2.jpg" alt="">
           <div class="p-2 text-start flex flex-col justify-between">
             <h2 class="text-xl font-bold text-[#D70328]">Jan 2025</h2>
             <h2 class="mt-2 text-[#033E94] font-semibold">Green Tech Initiative:</h2>
@@ -59,7 +59,7 @@
 
         <!-- Card 2 -->
         <div class="bg-white rounded-3xl shadow-xs flex flex-row max-w-auto">
-          <img class="object-cover w-44 h-44 rounded-3xl" src="../public/assets/n3.jpg" alt="">
+          <img class="object-cover w-44 h-44 rounded-3xl" src="assets/n3.jpg" alt="">
           <div class="p-2 text-start flex flex-col justify-between">
             <h2 class="text-xl font-bold text-[#D70328]">March 2025</h2>
             <h2 class="mt-2 text-[#033E94] font-semibold">National Inventors Week 2025:</h2>
@@ -75,7 +75,7 @@
 
         <!-- Card 3 -->
         <div class="bg-white rounded-3xl shadow-xs flex flex-row max-w-auto">
-          <img class="object-cover w-44 h-44 rounded-3xl" src="../public/assets/n4.jpg" alt="">
+          <img class="object-cover w-44 h-44 rounded-3xl" src="assets/n4.jpg" alt="">
           <div class="p-2 text-start flex flex-col justify-between">
             <h2 class="text-xl font-bold text-[#D70328]">May 2025</h2>
             <h2 class="mt-2 text-[#033E94] font-semibold">Digital Member Portal Goes Live:</h2>
@@ -91,7 +91,7 @@
 
         <!-- Card 4 (✨ removed hidden so it shows when scrolling) -->
         <div class="bg-white rounded-3xl shadow-xs flex flex-row max-w-auto" id="hiddenCard">
-          <img class="object-cover w-44 h-44 rounded-3xl" src="../public/assets/p5.jpg" alt="">
+          <img class="object-cover w-44 h-44 rounded-3xl" src="assets/p5.jpg" alt="">
           <div class="p-2 text-start flex flex-col justify-between">
             <h2 class="text-xl font-bold text-[#D70328]">July 2025</h2>
             <h2 class="mt-2 text-[#033E94] font-semibold">Launch of NICCH:</h2>

@@ -2,5 +2,5 @@
 
 logout();
 
-header('location: /filipino-inventor/');
+header('location: /');
 exit;

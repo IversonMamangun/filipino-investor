@@ -10,7 +10,7 @@
     <strong>Innovation Commercialization & Technology Transfer; Sustainable Cooperative Enterprise & Green Manufacturing; Digital Transformation & Inclusive Market Access; and Capacity Building & Policy Advocacy for Inventors.</strong>
   </p>
   <div id="strategic-plans">
-    <div class="h-auto xl:px-[14%] md:px-[8%] bg-cover bg-center bg-[url('../public/assets/news.jpg')] relative shadow-lg">
+    <div class="h-auto xl:px-[14%] md:px-[8%] bg-cover bg-center bg-[url('assets/news.jpg')] relative shadow-lg">
 
       <div class="relative w-full h-auto py-10">
 
@@ -413,13 +413,13 @@
 
       <div class="absolute inset-y-0 left-0 flex items-center px-8 md:px-0 md:pr-15 z-20 pointer-events-none">
         <button id="customPrevBtn" class="bg-white rounded-full shadow-md hover:bg-gray-200 pointer-events-auto cursor-pointer">
-          <img src="../public/assets/leftarrow.png" alt="Previous" class="w-20 h-20 hover:bg-blue-600 rounded-full p-1" />
+          <img src="assets/leftarrow.png" alt="Previous" class="w-20 h-20 hover:bg-blue-600 rounded-full p-1" />
         </button>
       </div>
 
       <div class="absolute inset-y-0 right-0 flex items-center px-8 md:px-0 md:pl-15 z-20 pointer-events-none">
         <button id="customNextBtn" class="bg-white rounded-full shadow-md hover:bg-gray-200 pointer-events-auto cursor-pointer">
-          <img src="../public/assets/rightarrow.png" alt="Next" class="w-20 h-20 hover:bg-blue-600 rounded-full p-1" />
+          <img src="assets/rightarrow.png" alt="Next" class="w-20 h-20 hover:bg-blue-600 rounded-full p-1" />
         </button>
       </div>
 

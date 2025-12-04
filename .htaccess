@@ -1,11 +1,12 @@
+# Enable URL rewriting
 RewriteEngine On
 
-# Adjust Base if necessary, but usually just / is fine if placed in root
-RewriteBase /filipino-inventor/
+# Set the base folder (adjust if your project folder is named differently)
+RewriteBase /filipino-investor/
 
-# Allow access to real files (images, css, js)
+# If the requested file or directory does NOT exist...
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
-# Send everything else to public/index.php
-RewriteRule ^(.*)$ public/index.php [L,QSA]
+# ...then route everything to index.php
+RewriteRule ^ index.php [L]

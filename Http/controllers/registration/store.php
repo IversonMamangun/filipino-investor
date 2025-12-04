@@ -32,7 +32,7 @@ $user = $db->query('select * from users where email = :email', [
 if ($user){
     // then someone with that email already exists and has an account
     // if yes, redirect to a login page.
-    header('location: /filipino-inventor/');
+    header('location: /login');
 }else{ 
 // if Not, save one to the database, and then log user in, and redirect
 $db->query(
@@ -48,6 +48,6 @@ $db->query(
         'email' => $email
     ]);
 
-    header('location: /filipino-inventor/');
+    header('location: /');
     exit();
 }

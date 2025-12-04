@@ -1,6 +1,6 @@
 <div id="program-services">
     <div class="relative">
-        <img src="../public/assets/productsandservices.jpg" alt="" class="w-full h-auto md:h-[12rem] object-cover">
+        <img src="assets/productsandservices.jpg" alt="" class="w-full h-auto md:h-[12rem] object-cover">
 
         <div class="absolute inset-0 flex flex-col items-center justify-center px-4 text-center">
             <h1 class="text-white text-xl sm:text-2xl md:text-5xl 2xl:text-4xl xl:text-4xl font-bold drop-shadow-lg mb-1 sm:mb-2 md:mb-3">
@@ -20,7 +20,7 @@
             <div class="card-inner bg-white block rounded-3xl shadow-lg transition-all duration-500 ease-out transform
                 w-full m-4 md:w-[95%] lg:w-auto h-[34rem] flex flex-col mx-auto text-start border border-gray-100 overflow-hidden ">
                 <a href="#" class="block flex-shrink-0">
-                    <img class="w-full h-64 object-cover" src="../public/assets/p1.jpg" alt="Invention Development & Commercialization" />
+                    <img class="w-full h-64 object-cover" src="assets/p1.jpg" alt="Invention Development & Commercialization" />
                 </a>
                 <div class="flex flex-col flex-grow p-6">
                     <a href="#">
@@ -37,7 +37,7 @@
             <div class="card-inner bg-white block rounded-3xl shadow-lg transition-all duration-500 ease-out transform
                 w-full m-4 md:w-[95%] lg:w-auto h-[34rem] flex flex-col mx-auto text-start border border-gray-100 overflow-hidden">
                 <a href="#" class="block flex-shrink-0">
-                    <img class="w-full h-64 object-cover" src="../public/assets/p2.jpg" alt="Cooperative Enterprise Development" />
+                    <img class="w-full h-64 object-cover" src="assets/p2.jpg" alt="Cooperative Enterprise Development" />
                 </a>
                 <div class="flex flex-col flex-grow p-6">
                     <a href="#">
@@ -54,7 +54,7 @@
             <div class="card-inner bg-white block rounded-3xl shadow-lg transition-all duration-500 ease-out transform
                 w-full m-4 md:w-[95%] lg:w-auto h-[34rem] flex flex-col mx-auto text-start border border-gray-100 overflow-hidden">
                 <a href="#" class="block flex-shrink-0">
-                    <img class="w-full h-64 object-cover" src="../public/assets/p3.jpg" alt="Research and Innovation Hubs" />
+                    <img class="w-full h-64 object-cover" src="assets/p3.jpg" alt="Research and Innovation Hubs" />
                 </a>
                 <div class="flex flex-col flex-grow p-6">
                     <a href="#">
@@ -71,7 +71,7 @@
             <div class="card-inner bg-white block rounded-3xl shadow-lg transition-all duration-500 ease-out transform
                 w-full m-4 md:w-[95%] lg:w-auto h-[34rem] flex flex-col mx-auto text-start border border-gray-100 overflow-hidden">
                 <a href="#" class="block flex-shrink-0">
-                    <img class="w-full h-64 object-cover" src="../public/assets/p4.jpg" alt="National Innovation Advocacy" />
+                    <img class="w-full h-64 object-cover" src="assets/p4.jpg" alt="National Innovation Advocacy" />
                 </a>
                 <div class="flex flex-col flex-grow p-6">
                     <a href="#">
@@ -88,7 +88,7 @@
             <div class="card-inner bg-white block rounded-3xl shadow-lg transition-all duration-500 ease-out transform
                 w-full m-3 md:w-[95%] lg:w-auto h-[34rem] flex flex-col mx-auto text-start border border-gray-100 overflow-hidden">
                 <a href="#" class="block flex-shrink-0">
-                    <img class="w-full h-64 object-cover" src="../public/assets/p5.jpg" alt="Trade Fairs and Exhibitions" />
+                    <img class="w-full h-64 object-cover" src="assets/p5.jpg" alt="Trade Fairs and Exhibitions" />
                 </a>
                 <div class="flex flex-col flex-grow p-6">
                     <a href="#">
@@ -106,13 +106,13 @@
 
         <div class="absolute inset-y-0 left-0 flex items-center px-8 md:px-0 md:pr-15 z-40 pointer-events-none">
             <button id="programPrevBtn" class="bg-white rounded-full shadow-md hover:bg-gray-200 pointer-events-auto cursor-pointer">
-                <img src="../public/assets/leftarrow.png" alt="Previous" class="w-20 h-20 hover:bg-blue-600 rounded-full p-1" />
+                <img src="assets/leftarrow.png" alt="Previous" class="w-20 h-20 hover:bg-blue-600 rounded-full p-1" />
             </button>
         </div>
 
         <div class="absolute inset-y-0 right-0 flex items-center px-8 md:px-0 md:pl-15 z-40 pointer-events-none">
             <button id="programNextBtn" class="bg-white rounded-full shadow-md hover:bg-gray-200 pointer-events-auto cursor-pointer">
-                <img src="../public/assets/rightarrow.png" alt="Next" class="w-20 h-20 hover:bg-blue-600 rounded-full p-1" />
+                <img src="assets/rightarrow.png" alt="Next" class="w-20 h-20 hover:bg-blue-600 rounded-full p-1" />
             </button>
         </div>
         

@@ -20,7 +20,7 @@
         <div class="absolute left-4 top-1/2 -translate-y-1/2 
               flex items-center justify-center 
               w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-white shadow-lg">
-          <img src="./public/assets/vision.png" alt="Vision Icon"
+          <img src="assets/vision.png" alt="Vision Icon"
             class="w-12 h-12 sm:w-15 sm:h-15 object-cover rounded-full" />
         </div>
 
@@ -53,7 +53,7 @@
         <div class="absolute left-4 top-1/2 -translate-y-1/2 
               flex items-center justify-center 
               w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-white shadow-lg">
-          <img src="./public/assets/mission.png" alt="Mission Icon"
+          <img src="assets/mission.png" alt="Mission Icon"
             class="w-12 h-12 sm:w-15 sm:h-15 object-cover rounded-full" />
         </div>
 

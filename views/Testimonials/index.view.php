@@ -1,6 +1,6 @@
 <div id="testimonials">
   <div class="relative">
-    <img src="../public/assets/gallery.jpg" alt="Gallery background" class="w-full h-auto object-cover">
+    <img src="assets/gallery.jpg" alt="Gallery background" class="w-full h-auto object-cover">
 
     <!-- Overlay Title -->
     <div class="absolute inset-0 flex items-start 2xl:items-center  justify-center text-center pt-8">
@@ -21,7 +21,7 @@
         <!-- Left Column -->
         <div class="flex flex-col justify-between items-center w-[30%] mr-2">
           <img class="object-cover w-auto h-auto rounded-full"
-            src="../public/assets/marisol.png" alt="Marisol D.">
+            src="assets/marisol.png" alt="Marisol D.">
           <i>
             <div class="text-[10rem] sm:text-[14rem] font-extrabold text-[#D70328] -mt-[4rem]
             lg:-mt-[2rem] xl:-mt-[1rem] 2xl:-mt-[8rem]
@@ -46,7 +46,7 @@
                 max-h-[500px] h-auto flex-shrink-0 transition duration-300 hover:scale-105">
         <div class="flex flex-col justify-between items-center w-[30%] mr-2">
           <img class="object-cover w-auto h-auto rounded-full"
-            src="../public/assets/juan.png" alt="Juan Carlo R.">
+            src="assets/juan.png" alt="Juan Carlo R.">
           <i>
             <div class="text-[10rem] sm:text-[14rem] font-extrabold text-[#D70328] -mt-[4rem]
             lg:-mt-[2rem] xl:-mt-[1rem] 2xl:-mt-[8rem]
@@ -68,7 +68,7 @@
                 max-h-[500px] h-auto flex-shrink-0 transition duration-300 hover:scale-105">
         <div class="flex flex-col justify-between items-center w-[30%] mr-2">
           <img class="object-cover w-auto h-auto rounded-full"
-            src="../public/assets/lani.png" alt="Lani P.">
+            src="assets/lani.png" alt="Lani P.">
           <i>
             <div class="text-[10rem] sm:text-[14rem] font-extrabold text-[#D70328] -mt-[4rem]
             lg:-mt-[2rem] xl:-mt-[1rem] 2xl:-mt-[8rem]
@@ -90,7 +90,7 @@
                 max-h-[500px] h-auto flex-shrink-0 transition duration-300 hover:scale-105">
         <div class="flex flex-col justify-between items-center w-[30%] mr-2">
           <img class="object-cover w-auto h-auto rounded-full"
-            src="../public/assets/miguel.png" alt="Lani P.">
+            src="assets/miguel.png" alt="Miguel S.">
           <i>
             <div class="text-[10rem] sm:text-[14rem] font-extrabold text-[#D70328] -mt-[4rem]
             lg:-mt-[2rem] xl:-mt-[1rem] 2xl:-mt-[8rem]
@@ -109,13 +109,13 @@
     <!-- Navigation Buttons -->
    <div class="absolute inset-y-0 left-0 flex items-center px-8 md:px-0 md:pr-15 z-20 pointer-events-none">
         <button id="testimonialPrevBtn" class="bg-white rounded-full shadow-md hover:bg-gray-200 pointer-events-auto cursor-pointer">
-          <img src="../public/assets/leftarrow.png" alt="Previous" class="w-20 h-20 hover:bg-blue-600 rounded-full p-1" />
+          <img src="assets/leftarrow.png" alt="Previous" class="w-20 h-20 hover:bg-blue-600 rounded-full p-1" />
         </button>
       </div>
   
       <div class="absolute inset-y-0 right-0 flex items-center px-8 md:px-0 md:pl-15 z-20 pointer-events-none ">
         <button id="testimonialNextBtn" class="bg-white rounded-full shadow-md hover:bg-gray-200 pointer-events-auto cursor-pointer">
-          <img src="../public/assets/rightarrow.png" alt="Next" class="w-20 h-20 bg-none hover:bg-blue-600 rounded-full p-1" />
+          <img src="assets/rightarrow.png" alt="Next" class="w-20 h-20 bg-none hover:bg-blue-600 rounded-full p-1" />
         </button>
       </div>
 

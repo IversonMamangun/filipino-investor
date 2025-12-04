@@ -4,7 +4,7 @@
     <!-- First Column as Row -->
     <div class="flex items-center space-x-4 p-6">
       <!-- Logo -->
-      <img src="../public/assets/footerlogo.png" class="h-25" alt="Footer Logo" />
+      <img src="/assets/footerlogo.png" class="h-25" alt="Footer Logo" />
       
       <!-- Title + Tagline stacked inside -->
       <div>

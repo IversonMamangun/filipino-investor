@@ -1,6 +1,6 @@
 <div id="gallery">
   <div class="relative">
-    <img src="../public/assets/gallery.jpg" alt="" class="w-full h-auto md:h-[16rem]">
+    <img src="assets/gallery.jpg" alt="" class="w-full h-auto md:h-[16rem]">
 
     <div class="absolute inset-0 flex flex-col items-center justify-center px-2 text-center mb-2 md:h-[15rem]">
       <h1 class="text-white text-3xl md:text-4xl font-bold drop-shadow-lg mb-4">
@@ -83,8 +83,8 @@
           <div class="p-4 h-full">
             <div class="bg-white block rounded-3xl shadow-2xl transform transition duration-300 hover:scale-105 flex-shrink-0 w-full p-6 h-full">
               <a href="#" class="relative block">
-                <img class="rounded-xl shadow-lg w-full" src="../public/assets/v1.jpg" alt="Green Tech Initiative" />
-                <img class="absolute inset-0 m-auto w-20 h-20 rounded-full shadow-lg" src="../public/assets/video.png" alt="Play Icon" style="width: 5rem; height: 5rem;" />
+                <img class="rounded-xl shadow-lg w-full" src="assets/v1.jpg" alt="Green Tech Initiative" />
+                <img class="absolute inset-0 m-auto w-20 h-20 rounded-full shadow-lg" src="assets/video.png" alt="Play Icon" style="width: 5rem; height: 5rem;" />
               </a>
               <h5 class="mt-6 mb-2 text-xl md:text-2xl xl:text-xl tracking-tight text-heading flex justify-between items-center">
                 <strong>Green Tech Initiative:</strong>
@@ -99,8 +99,8 @@
           <div class="p-4 h-full">
             <div class="bg-white block rounded-3xl shadow-2xl transform transition duration-300 hover:scale-105 flex-shrink-0 w-full p-6 h-full">
               <a href="#" class="relative block">
-                <img class="rounded-xl shadow-lg w-full" src="../public/assets/v1.jpg" alt="Green Tech Initiative" />
-                <img class="absolute inset-0 m-auto w-20 h-20 rounded-full shadow-lg" src="../public/assets/video.png" alt="Play Icon" style="width: 5rem; height: 5rem;" />
+                <img class="rounded-xl shadow-lg w-full" src="assets/v1.jpg" alt="Green Tech Initiative" />
+                <img class="absolute inset-0 m-auto w-20 h-20 rounded-full shadow-lg" src="assets/video.png" alt="Play Icon" style="width: 5rem; height: 5rem;" />
               </a>
               <h5 class="mt-6 mb-2 text-xl md:text-2xl xl:text-xl tracking-tight text-heading flex justify-between items-center">
                 <strong>Green Tech Initiative:</strong>
@@ -115,8 +115,8 @@
           <div class="p-4 h-full">
             <div class="bg-white block rounded-3xl shadow-2xl transform transition duration-300 hover:scale-105 flex-shrink-0 w-full p-6 h-full">
               <a href="#" class="relative block">
-                <img class="rounded-xl shadow-lg w-full" src="../public/assets/v1.jpg" alt="Green Tech Initiative" />
-                <img class="absolute inset-0 m-auto w-20 h-20 rounded-full shadow-lg" src="../public/assets/video.png" alt="Play Icon" style="width: 5rem; height: 5rem;" />
+                <img class="rounded-xl shadow-lg w-full" src="assets/v1.jpg" alt="Green Tech Initiative" />
+                <img class="absolute inset-0 m-auto w-20 h-20 rounded-full shadow-lg" src="assets/video.png" alt="Play Icon" style="width: 5rem; height: 5rem;" />
               </a>
               <h5 class="mt-6 mb-2 text-xl md:text-2xl xl:text-xl tracking-tight text-heading flex justify-between items-center">
                 <strong>Green Tech Initiative:</strong>
@@ -131,8 +131,8 @@
           <div class="p-4 h-full">
             <div class="bg-white block rounded-3xl shadow-2xl transform transition duration-300 hover:scale-105 flex-shrink-0 w-full p-6 h-full">
               <a href="#" class="relative block">
-                <img class="rounded-xl shadow-lg w-full" src="../public/assets/v1.jpg" alt="Green Tech Initiative" />
-                <img class="absolute inset-0 m-auto w-20 h-20 rounded-full shadow-lg" src="../public/assets/video.png" alt="Play Icon" style="width: 5rem; height: 5rem;" />
+                <img class="rounded-xl shadow-lg w-full" src="assets/v1.jpg" alt="Green Tech Initiative" />
+                <img class="absolute inset-0 m-auto w-20 h-20 rounded-full shadow-lg" src="assets/video.png" alt="Play Icon" style="width: 5rem; height: 5rem;" />
               </a>
               <h5 class="mt-6 mb-2 text-xl md:text-2xl xl:text-xl tracking-tight text-heading flex justify-between items-center">
                 <strong>Green Tech Initiative:</strong>
@@ -149,13 +149,13 @@
 
       <div class="absolute inset-y-0 left-0 flex items-center px-8 md:px-0 md:pr-15 z-20 pointer-events-none">
         <button id="galleryPrevBtn" class="bg-white rounded-full shadow-md hover:bg-gray-200 pointer-events-auto cursor-pointer">
-          <img src="../public/assets/leftarrow.png" alt="Previous" class="w-20 h-20 hover:bg-blue-600 rounded-full p-1" />
+          <img src="assets/leftarrow.png" alt="Previous" class="w-20 h-20 hover:bg-blue-600 rounded-full p-1" />
         </button>
       </div>
 
       <div class="absolute inset-y-0 right-0 flex items-center px-8 md:px-0 md:pl-15 z-20 pointer-events-none ">
         <button id="galleryNextBtn" class="bg-white rounded-full shadow-md hover:bg-gray-200 pointer-events-auto cursor-pointer">
-          <img src="../public/assets/rightarrow.png" alt="Next" class="w-20 h-20 bg-none hover:bg-blue-600 rounded-full p-1" />
+          <img src="assets/rightarrow.png" alt="Next" class="w-20 h-20 bg-none hover:bg-blue-600 rounded-full p-1" />
         </button>
       </div>
     </div>
@@ -174,7 +174,7 @@
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 p-10 xl:px-[15%] shadow-lg transition duration-500 ease-in-out 
            transform">
       <div class="relative w-full h-full">
-        <img src="../public/assets/pp1.jpg" alt="Large Image"
+        <img src="assets/pp1.jpg" alt="Large Image"
           class="w-full h-full object-cover p-4 shadow-xl">
 
         <div class="absolute top-10 lg:top-15 bg-gradient-to-tr 
@@ -185,10 +185,10 @@
       </div>
 
       <div class="grid grid-cols-2 grid-rows-2 gap-4">
-        <img src="../public/assets/pp1.jpg" alt="Image 1" class="w-full h-full object-cover p-4 shadow-xl">
-        <img src="../public/assets/pp1.jpg" alt="Image 2" class="w-full h-full object-cover p-4 shadow-xl">
-        <img src="../public/assets/pp1.jpg" alt="Image 3" class="w-full h-full object-cover p-4 shadow-xl">
-        <img src="../public/assets/pp1.jpg" alt="Image 4" class="w-full h-full object-cover p-4 shadow-xl">
+        <img src="assets/pp1.jpg" alt="Image 1" class="w-full h-full object-cover p-4 shadow-xl">
+        <img src="assets/pp1.jpg" alt="Image 2" class="w-full h-full object-cover p-4 shadow-xl">
+        <img src="assets/pp1.jpg" alt="Image 3" class="w-full h-full object-cover p-4 shadow-xl">
+        <img src="assets/pp1.jpg" alt="Image 4" class="w-full h-full object-cover p-4 shadow-xl">
       </div>
 
       <div class="col-span-1 lg:col-span-2 flex justify-center mt-6">

@@ -1,5 +1,5 @@
 <div id="home" class="relative">
-  <img src="../public/assets/bg1.jpg" alt="" class="w-full 
+  <img src="assets/bg1.jpg" alt="" class="w-full 
          h-40 sm:h-auto md:h-[1800px] lg:h-[600px] xl:h-[650px] 
          object-cover 
          rounded-b-[10%] sm:rounded-b-[12%] md:rounded-b-xl lg:rounded-b-[18%]">

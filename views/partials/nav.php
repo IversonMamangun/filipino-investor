@@ -8,7 +8,7 @@
     <!-- Logo -->
     <div class="flex-shrink-0">
       <a href="./" class="flex items-center space-x-3 rtl:space-x-reverse">
-        <img src="../public/assets/navlogo.png" class="h-12 md:h-20 lg:h-15 xl:h-13" alt="Logo of Filipino Investor">
+        <img src="assets/navlogo.png" class="h-12 md:h-20 lg:h-15 xl:h-13" alt="Logo of Filipino Investor">
       </a>
     </div>
 
@@ -28,12 +28,25 @@
         <li><a href="#contact" class="nav-link hover:text-fg-brand">Contact Us</a></li>
       </ul>
     </div>
+    <el-dropdown class="relative ml-3">
+      <?php if ($_SESSION['user'] ?? false) : ?>
+        <!-- 
+        <button class="relative flex max-w-xs items-center rounded-full focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">
+          <span class="absolute -inset-1.5"></span>
+          <span class="sr-only">Open user menu</span>
+          <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="size-8 rounded-full outline -outline-offset-1 outline-white/10" />
+        </button> -->
+      <?php else : ?>
+        <!-- <a href="register" class="<"?= urlIs('/register') ?> nav-link hover:text-fg-brand">Register</a> -->
+        <a href="login" class=" <?= urlIs('/login') ?>text-blue-900 rounded-md px-4 py-2 md:text-4xl xl:text-lg text-base font-medium hover:text-[#022e6f] transition">
+          Log in
+        </a>
+      <?php endif; ?>
 
+    </el-dropdown>
     <!-- Login + Join + Mobile Toggle -->
     <div class="flex items-center md:items-start space-x-4">
-      <a href="login" class="text-blue-900 rounded-md px-4 py-2 md:text-4xl xl:text-lg text-base font-medium hover:text-[#022e6f] transition">
-        Log in
-      </a>
+
       <button type="button" class="text-white bg-[#033E94] hover:bg-blue-600 rounded-lg xl:px-3 px-6 py-2 md:text-4xl xl:text-lg md:font-medium text-base font-semibold shadow-md transition">
         Join us
       </button>
@@ -44,8 +57,16 @@
         </svg>
       </button>
     </div>
-
+            <?php if ($_SESSION['user'] ?? false) : ?>
+            <el-dropdown class="relative ml-3">
+              <form action="/session" method="POST">
+                  <input type="hidden" name="_method" value="DELETE"/>
+                  <button class="nav-link text-[#033E94] hover:text-fg-brand">Log Out</button>
+              </form>
+            </el-dropdown>
+            <?php endif;?>
   </div>
+
 </nav>
 
 <script>
@@ -75,29 +96,30 @@
   });
 
 
-const links = document.querySelectorAll("#nav .nav-link");
-links.forEach(link => {
-  link.addEventListener("click", function(e) {
-    e.preventDefault();
+  const links = document.querySelectorAll("#nav .nav-link");
+  links.forEach(link => {
+    link.addEventListener("click", function(e) {
+      e.preventDefault();
 
 
-    links.forEach(l => l.classList.remove("text-[#033E94]"));
-    this.classList.add("text-[#033E94]");
+      links.forEach(l => l.classList.remove("text-[#033E94]"));
+      this.classList.add("text-[#033E94]");
 
 
-    const targetId = this.getAttribute('href').substring(1);
-    const target = document.getElementById(targetId);
-    if (target) {
-      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
+      const targetId = this.getAttribute('href').substring(1);
+      const target = document.getElementById(targetId);
+      if (target) {
+        target.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+        });
+      }
 
-    if (window.innerWidth < 1280) { 
-      menuIcon.classList.remove("rotate-90");
-      navbarSticky.classList.add("max-h-0", "opacity-0", "translate-y-[-20px]");
-      navbarSticky.classList.remove("max-h-screen", "opacity-100", "translate-y-0");
-    }
+      if (window.innerWidth < 1280) {
+        menuIcon.classList.remove("rotate-90");
+        navbarSticky.classList.add("max-h-0", "opacity-0", "translate-y-[-20px]");
+        navbarSticky.classList.remove("max-h-screen", "opacity-100", "translate-y-0");
+      }
+    });
   });
-});
-
-
 </script>
